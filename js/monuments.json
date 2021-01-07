@@ -1,0 +1,106 @@
+{
+    "name": "PARISMAP",
+    "description": "Retrouvez facilement les plus beaux monuments de Paris pour organiser votre visite à travers la capitale ! ",
+    "lieu": [
+        {
+            "name": "Tour Eiffel",
+            "img": "./img/toureiffel.jpg",
+            "description": "La tour Eiffel est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) située à Paris, à l’extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est 5, avenue Anatole-France.",
+            "gps": [
+                2.294481,
+                48.85837
+            ],
+            "color": "#D40000"
+        },
+        {
+            "name": "Arc de Triomphe",
+            "img": "./img/arctriomphe.jpg",
+            "description": "L’arc de triomphe de l’Étoile, souvent appelé simplement l’Arc de triomphe, dont la construction, décidée par l'empereur Napoléon Ier, débuta en 1806 et s'acheva en 1836 sous Louis-Philippe, est situé à Paris, dans les 8e, 16e, et 17e arrondissements.",
+            "gps": [
+                2.295028,
+                48.873792
+            ],
+            "color": "#FF9300"
+        },
+        {
+            "name": "Sacré-Coeur",
+            "img": "./img/sacrecoeur.jpg",
+            "description": "La basilique du Sacré-Cœur de Montmartre, dite du Vœu national, située au sommet de la butte Montmartre, dans le quartier de Clignancourt du 18e arrondissement de Paris (France), est un édifice religieux parisien majeur, « sanctuaire de l'adoration eucharistique et de la miséricorde divine » et propriété de l'archidiocèse de Paris.",
+            "gps": [
+                2.3391319768,
+                48.8853464586
+            ],
+            "color": "#FCACFF"
+        },
+        {
+            "name": "Jardin des Plantes",
+            "img": "./img/jardinplantes.jpg",
+            "description": "Le jardin des plantes de Paris, ou le Jardin des plantes, est un parc et un jardin botanique ouvert au public, situé dans le 5e arrondissement de Paris. Il est le siège et le principal site du Muséum national d'histoire naturelle. En plus des espaces verts propres à un jardin, on trouve aussi au Jardin des plantes une ménagerie, des serres, et des bâtiments d'exposition scientifique.",
+            "gps": [
+                2.355763,
+                48.842053
+            ],
+            "color": "#00CB47"
+        },
+        {
+            "name": "Parc Monceau",
+            "img": "./img/parcmonceau.jpg",
+            "description": "Le parc Monceau (parfois appelé parc de Monceau) est un jardin d'agrément situé dans le quartier de l'Europe du 8e arrondissement de Paris.",
+            "gps": [
+                2.30553544452,
+                48.874329836
+            ],
+            "color": "#691FB7"
+        },
+        {
+            "name": "Cimetière du Père Lachaise",
+            "img": "./img/cimetierelachaise.jpg",
+            "description": "Le cimetière du Père-Lachaise est le plus grand cimetière parisien intra muros et l'un des plus célèbres dans le monde. Situé dans le 20e arrondissement, de nombreuses personnes célèbres y sont enterrées. Il accueille chaque année plus de trois millions et demi de visiteurs, ce qui en fait le cimetière le plus visité au monde.",
+            "gps": [
+                2.3933,
+                48.8614
+            ],
+            "color": "#3D8FD8"
+        },
+        {
+            "name": "Place de la Bastille",
+            "img": "./img/placebastille.jpg",
+            "description": "La place de la Bastille est une place de Paris, lieu symbolique de la Révolution française, où l'ancienne forteresse de la Bastille fut détruite entre le 14 juillet 1789 et le 14 juillet 1790.",
+            "gps": [
+                2.3695,
+                48.8533
+            ],
+            "color": "#3CEDE0"
+        },
+        {
+            "name": "Les Catacombes de Paris",
+            "img": "./img/catacombes.jpg",
+            "description": "Les catacombes de Paris sont à l'origine une partie des anciennes carrières souterraines situées dans le 14e arrondissement de Paris, reliées entre elles par des galeries d'inspection. Elles sont transformées en ossuaire municipal à la fin du XVIIIe siècle avec le transfert des restes d'environ six millions d'individus.",
+            "gps": [
+                2.332653,
+                48.834138
+            ],
+            "color": "#F0ED52"
+        },
+        {
+            "name": "Parc des Buttes-Chaumont",
+            "img": "./img/butteschaumont.jpg",
+            "description": "Le parc des Buttes-Chaumont est un jardin public situé dans le nord-est de Paris, en France, dans le 19e arrondissement de la ville.",
+            "gps": [
+                2.3828,
+                48.8809
+            ],
+            "color": "#F55656"
+        },
+        {
+            "name": "Mil's Pub",
+            "img": "./img/milspub.jpg",
+            "description": "Le Mil’s Pub est un bar situé dans le 12e arrondissement de Paris, en France. Il propose des cocktails de qualité.",
+            "gps": [
+                2.3940524,
+                48.8401464
+            ],
+            "color": "#FB00FF"
+        }
+    ]
+}

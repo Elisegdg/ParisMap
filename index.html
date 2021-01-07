@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParisMap | Organisez votre visite de Paris à l'aide de notre carte interactive !</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main id="container">
+        <div id="leftPart">
+            <div id="titre">
+                <h1>PARISMAP</h1>
+            </div>
+            <div id="ajoutLieu">
+                <form id="blocTexte">
+                    <p>Ajouter un lieu</p>
+                    <div id="nom">
+                        Nom : <input id="inputName" type="text" placeholder="Nom...">
+                    </div>
+                    <div id="coordonnes">
+                        Coordonnées : <input class="inputGps" id="inputLong" type="number" placeholder="Longitude...">
+                        <input class="inputGps" id="inputLatt" type="number" placeholder="Latitude...">
+                    </div>
+                    <div id="color">
+                        Couleur de votre marqueur : <input id="inputColor" type="text" placeholder="#000000">
+                    </div>
+                    <div id="btn">
+                        <input type="button" id="btnAjoutLieu" value="Ajouter !">
+                    </div>
+                </form>
+            </div>
+
+            <div id="infosLieu">
+
+            </div>
+
+
+
+
+        </div>
+        <div id="rightPart">
+            <div id='map' style='width: 50vw; height: 100vh;'></div>
+            <script>
+                mapboxgl.accessToken = 'pk.eyJ1IjoiZWxpc2VnZGciLCJhIjoiY2tpc3A2MnJnMGd2YzMwcGRrNm15aWp0MiJ9.moO8a84u129MsytfhH3w6g';
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/elisegdg/ckisp7dyi15yi1anxdeqh8hln', // stylesheet location
+                    center: [2.354, 48.854], // starting position [lng, lat]
+                    zoom: 11 // starting zoom
+                });
+            </script>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
