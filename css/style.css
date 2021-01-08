@@ -67,9 +67,19 @@ p {
     padding: 8px;
 }
 
+#coordonnes {
+    
+    display: flex;
+    align-items: center;
+}
+
+#structgps {
+    margin-left: 3%;
+}
+
 .inputGps {
     margin-top: 2%;
-    width: 30%;
+    width: 40%;
     border-radius: 20px;
     border: none;
     padding: 8px;
@@ -144,10 +154,210 @@ p {
 
 /* La div qui permet d'ajouter un lieu disparaît sur un écran inférieur à 1000px pour ne pas perturber l'affichage*/
 
-@media (max-width : 1000px){
+
+@media (max-width : 440px){
     #ajoutLieu {
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F3E4C6;
+        width: 95%;
+        margin: auto;
+        border-radius: 20px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        
     }
+
+    #blocTexte {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+
+    #nom {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    #inputName {
+        margin-top: 2%;
+        width: 80%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+    }
+
+    #coordonnes {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    #structgps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inputGps {
+        margin-top: 2%;
+        margin-right: 2%;
+        width: 40%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+    }
+
+    #color {
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+    
+    #inputColor {
+        margin-top: 2%;
+        width: 70%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+    }
+    
+    #btnAjoutLieu {
+        float: none;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+        background-color: #E39B7E;
+        color: white;
+    }
+    
+    #marqueur {
+        margin-top: 3%;
+    }
+
+
+    h1 {
+        font-size: 200% !important;
+    }
+}
+
+@media (min-width : 440px) and (max-width : 1000px){
+    #ajoutLieu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F3E4C6;
+        width: 95%;
+        margin: auto;
+        border-radius: 20px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        
+    }
+
+    #blocTexte {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        margin-bottom: 5%;
+    }
+
+    #nom {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    #inputName {
+        margin-top: 2%;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+    }
+
+    #coordonnes {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    #structgps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inputGps {
+        margin-top: 2%;
+        margin-right: 2%;
+        width: 40%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+    }
+
+    #color {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+    
+    #inputColor {
+        margin-top: 2%;
+        width: 70%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+    }
+    
+    #btnAjoutLieu {
+        float: none;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+        background-color: #E39B7E;
+        color: white;
+    }
+    
+    #marqueur {
+        margin-top: 3%;
+    }
+
 
     h1 {
         font-size: 200% !important;
